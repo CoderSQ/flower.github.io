@@ -2,7 +2,7 @@
   width: 80%;
   max-width: 45em;
   margin: 2.8em auto 0;
-  padding: 0.5em 1em;
+  padding: 1em 1em;
   border: 1px solid #d3d3d3;
   font-size: 1.3rem;
   line-height: 1.6em;
@@ -10,12 +10,12 @@
   background: rgba(255,255,255,0.4);
 }
 .my_post_copyright p {
-  margin: 0;
+  margin-bottom: 2px;
 }
 .my_post_copyright span {
   display: inline-block;
   width: 5.2em;
-  color: #b5b5b5;
+  color: #49b1f5;
   font-weight: bold;
 }
 .my_post_copyright .raw {
@@ -24,11 +24,14 @@
 }
 .my_post_copyright a {
   color: #808080;
-  border-bottom: 0;
+  padding-bottom: 1PX;
+  border-bottom: 1PX #c0c0c0 solid;
 }
 .my_post_copyright a:hover {
-  color: #a3d2a3;
-  text-decoration: underline;
+  color: #49b1f5;
+  text-decoration: none;
+  padding-bottom: 1PX;
+  border-bottom: 1PX #49b1f5 solid;
 }
 .my_post_copyright:hover .fa-clipboard {
   color: #000;
